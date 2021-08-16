@@ -1,0 +1,55 @@
+body{
+    margin: 0;
+}
+
+.title{
+    text-align: center;
+    background-color: rgb(6, 25, 49);
+}
+
+.title-txt{
+    margin:0;
+    padding: 1em;
+    color: rgb(231, 231, 231);
+}
+
+
+.gradient-box{
+    margin-inline: auto;
+    margin-block: 1em;
+    max-width: 1000px;
+    width: 90%;
+    height: 500px;
+    border-radius: 10px;
+}
+
+.input-form{
+    text-align: center;
+    padding: 1em;
+}
+.input{
+    margin: 1em;
+}
+
+.code{
+    background-color: rgb(6, 25, 49);
+    border-radius: 5px;
+    padding: 1em;
+    max-width: 800px;
+    width: 90%;
+    margin-inline: auto;
+    margin-block: 1em;
+    overflow: auto;
+    white-space: nowrap;
+}
+#code-text{
+    font-size: 1rem;
+    color: rgb(231, 231, 231);
+}
+
+.footer{
+    padding: 1.5em;
+    background-color: rgb(6, 25, 49);
+    text-align: center;
+    color: rgb(231, 231, 231);
+}

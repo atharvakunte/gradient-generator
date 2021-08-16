@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Gradient Generator</title>
+</head>
+<body>
+    <header>
+        <div class="title">
+            <h1 class="title-txt">Gradient Generator</h1>
+        </div>
+    </header>
+    <section id="gradient">
+        <div class="gradient-box" id="gradient-box">
+        
+        </div>
+    </section>
+    <section id="gradient-params">
+        <div class="input-form">
+        <div class="input">
+            <label for="angle">Angle</label>
+            <input type="text" id="angle" name="angle">
+        </div>
+        <div class="input">
+            <label for="color1">First Colour</label>
+            <input type="color" id="color1" name="color1">
+        </div>
+        <div class="input">
+            <label for="color2">Second Colour</label>
+            <input type="color" id="color2"name="color2">
+        </div>
+        <button onClick={generateGradient()}>Generate</button>
+        </div>
+    </section>
+    <section id="gradient-code">
+    <h3 class="code-title">Code:</h3>
+        <div class="code">
+            <code id="code-text"></code>
+        </div>
+    </section>
+    <footer>
+        <div class="footer">
+            © Copyright <span id="yr"></span> Atharva Kunte
+        </div>
+    </footer>
+    <script>
+        let year = document.getElementById('yr').innerHTML = new Date().getFullYear();
+    </script>
+    <script src="/scripts/main.js"></script>
+</body>
+</html>
